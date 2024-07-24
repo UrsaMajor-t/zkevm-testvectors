@@ -1,0 +1,131 @@
+[
+  {
+    "id": 0,
+    "description": "test OpMuldMod",
+    "sequencerAddress": "0x617b3a3528F9cDd6630fd3301B9c8911F7Bf063D",
+    "sequencerPvtKey": "0x28b2b0318721be8c8339199172cd7cc8f5e273800a35616ec893083a4b32c02e",
+    "genesis": [
+      {
+        "address": "0x617b3a3528F9cDd6630fd3301B9c8911F7Bf063D",
+        "nonce": "0",
+        "balance": "100000000000000000000",
+        "pvtKey": "0x28b2b0318721be8c8339199172cd7cc8f5e273800a35616ec893083a4b32c02e"
+      },
+      {
+        "address": "0x4d5Cf5032B2a844602278b01199ED191A86c93ff",
+        "nonce": "0",
+        "balance": "200000000000000000000",
+        "pvtKey": "0x4d27a600dce8c29b7bd080e29a26972377dbb04d7a27d919adbb602bf13cfd23"
+      },
+      {
+        "address": "0x1275fbb540c8efc58b812ba83b0d0b8b9917ae98",
+        "nonce": 1,
+        "balance": 0,
+        "bytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c80632678b3d514610030575b600080fd5b61004a60048036038101906100459190610084565b610060565b60405161005791906100e6565b60405180910390f35b60008183850990509392505050565b60008135905061007e81610110565b92915050565b60008060006060848603121561009d5761009c61010b565b5b60006100ab8682870161006f565b93505060206100bc8682870161006f565b92505060406100cd8682870161006f565b9150509250925092565b6100e081610101565b82525050565b60006020820190506100fb60008301846100d7565b92915050565b6000819050919050565b600080fd5b61011981610101565b811461012457600080fd5b5056fea2646970667358221220e8c3ee7ec460ab7d1bda76a6c0844bc58149c43f126cc4069152e5e68c24728764736f6c63430008070033",
+        "abi": [
+          {
+            "inputs": [
+              {
+                "internalType": "uint256",
+                "name": "a",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "b",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "n",
+                "type": "uint256"
+              }
+            ],
+            "name": "MuldMod",
+            "outputs": [
+              {
+                "internalType": "uint256",
+                "name": "result",
+                "type": "uint256"
+              }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+          }
+        ],
+        "storage": {}
+      }
+    ],
+    "txs": [
+      {
+        "type": 11,
+        "deltaTimestamp": "1944498031",
+        "l1Info": {
+          "globalExitRoot": "0x090bcaf734c4f06c93954a827b45a6e8c67b8e0fd1e0a35a1c5982d6961828f9",
+          "blockHash": "0x24a5871d68723340d9eadc674aa8ad75f3e33b61d5a9db7db92af856a19270bb",
+          "timestamp": "42"
+        },
+        "indexL1InfoTree": 0
+      },
+      {
+        "from": "0x4d5Cf5032B2a844602278b01199ED191A86c93ff",
+        "to": "0x1275fbb540c8efc58b812ba83b0d0b8b9917ae98",
+        "nonce": "0",
+        "value": "0",
+        "data": "0x2678b3d500000000000000000000000000000000000000000000000000000000000002f900000000000000000000000000000000000000000000000000000000000186a00000000000000000000000000000000000000000000000000000000000000100",
+        "gasLimit": 30000000,
+        "gasPrice": "1000000",
+        "chainId": 1000
+      }
+    ],
+    "timestampLimit": "1944498031",
+    "batchL2Data": "0x0b73e6af6f00000000f88b80830f42408401c9c380941275fbb540c8efc58b812ba83b0d0b8b9917ae9880b8642678b3d500000000000000000000000000000000000000000000000000000000000002f900000000000000000000000000000000000000000000000000000000000186a000000000000000000000000000000000000000000000000000000000000001008203e880801aa70e51ce2aac1dc56b5a110050f794b959c8a2b4edc822163df473c64b64f46e021ccaeb01ec6b72d1a90d77868cc7720d8a06acfe3b76f9f45921e4c16e7a1cff",
+    "newLocalExitRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "expectedOldRoot": "0x5c8ecfbce6038a6ea44acfd54d7391a157838b632ca4e130f2832c9ed688f441",
+    "expectedNewRoot": "0x31b8928921b815447481e3f0e75378ecf5e815ee00da8bb5531c9af736b1e9de",
+    "batchHashData": "0x70b5c162f3835b6ceaeb8eac888ff2ecebb6b7c7cc45a9e42c5c94c276f5d4d3",
+    "l1InfoRoot": "0x090bcaf734c4f06c93954a827b45a6e8c67b8e0fd1e0a35a1c5982d6961828f9",
+    "chainID": 1000,
+    "oldAccInputHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "expectedNewLeafs": {
+      "0x617b3a3528F9cDd6630fd3301B9c8911F7Bf063D": {
+        "balance": "100000000022457000000",
+        "nonce": "0",
+        "storage": null
+      },
+      "0x4d5Cf5032B2a844602278b01199ED191A86c93ff": {
+        "balance": "199999999977543000000",
+        "nonce": "1",
+        "storage": null
+      },
+      "0x1275fbb540c8efc58b812ba83b0d0b8b9917ae98": {
+        "balance": "0",
+        "nonce": "1",
+        "storage": {},
+        "hashBytecode": "0x83569a76fcbab3a6bf828e8c3a2df8ae87aa9a378694346519368461b338ae6d",
+        "bytecodeLength": 349
+      },
+      "0x000000000000000000000000000000005ca1ab1e": {
+        "balance": "0",
+        "nonce": "0",
+        "storage": {
+          "0x0000000000000000000000000000000000000000000000000000000000000000": "0x01",
+          "0x0000000000000000000000000000000000000000000000000000000000000002": "0x73e6af6f",
+          "0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49": "0x5c8ecfbce6038a6ea44acfd54d7391a157838b632ca4e130f2832c9ed688f441",
+          "0x0000000000000000000000000000000000000000000000000000000000000003": "0xc764434f7eacb3f0b1bfe19e29b64a226ea9529b1553ce44a13c72d96104d921"
+        }
+      }
+    },
+    "forkID": 9,
+    "virtualCounters": {
+      "steps": 44670,
+      "arith": 1030,
+      "binary": 2143,
+      "memAlign": 12,
+      "keccaks": 43,
+      "padding": 20,
+      "poseidon": 1270,
+      "sha256": 0
+    }
+  }
+]
